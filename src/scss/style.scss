@@ -1,3 +1,8 @@
-@import 'base/_normalize';
-@import 'base/_variables';
-@import 'base/_fonts';
+@import 'normalize';
+@import 'fonts';
+@import 'variables';
+@import 'media';
+@import 'globals';
+
+@import 'blocks/button';
+@import 'blocks/header';

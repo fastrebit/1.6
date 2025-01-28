@@ -5,21 +5,24 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   // Входной файл
+  entry: ['./src/js/index.js'],
 
-  entry: [
-    './src/js/index.js'
-  ],
+  // Настройки dev-сервера
   devServer: {
     port: 5000,
     open: true,
+    contentBase: path.join(__dirname, 'dist'), // Указываем папку для статики
   },
+
   // Выходной файл
   output: {
-    filename: './js/bundle.js'
+    filename: './js/bundle.js',
+    path: path.resolve(__dirname, 'dist'), // Указываем папку для сборки
+    publicPath: '/', // Указываем корневой путь для ресурсов
   },
 
   // Source maps для удобства отладки
-  devtool: "source-map",
+  devtool: 'source-map',
 
   module: {
     rules: [
@@ -32,8 +35,8 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env'],
-          }
-        }
+          },
+        },
       },
 
       // Компилируем SCSS в CSS
@@ -52,23 +55,29 @@ module.exports = {
         test: /\.(eot|ttf|woff|woff2)$/,
         use: [
           {
-            loader: 'file-loader?name=./fonts/[name].[ext]'
+            loader: 'file-loader',
+            options: {
+              name: 'fonts/[name].[ext]', // Указываем папку для шрифтов
+            },
           },
-        ]
+        ],
       },
-
 
       // Подключаем картинки из css
       {
         test: /\.(svg|png|jpg|jpeg|webp)$/,
         use: [
           {
-            loader: 'file-loader?name=./static/[name].[ext]'
+            loader: 'file-loader',
+            options: {
+              name: 'img/[name].[ext]', // Указываем папку для изображений
+            },
           },
-        ]
+        ],
       },
     ],
   },
+
   plugins: [
     // Подключаем файл html, стили и скрипты встроятся автоматически
     new HtmlWebpackPlugin({
@@ -78,7 +87,7 @@ module.exports = {
       minify: {
         removeComments: true,
         collapseWhitespace: false,
-      }
+      },
     }),
 
     // Кладем стили в отдельный файлик
@@ -92,6 +101,6 @@ module.exports = {
         from: './src/img',
         to: 'img',
       },
-    ])
+    ]),
   ],
 };

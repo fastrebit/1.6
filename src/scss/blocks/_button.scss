@@ -1,0 +1,19 @@
+.button{
+  border-radius: 50%;
+  border: none;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background-color: $pink;
+  background-repeat: no-repeat;
+  background-position: center;
+  &--burger{
+    background-image: url("../img/burger.svg");
+  }
+  &--request{
+    background-image: url("../img/request.svg");
+  }
+  &--status{
+    background-image: url("../img/status.svg");
+  }
+}
