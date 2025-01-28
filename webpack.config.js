@@ -5,25 +5,26 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   // Входной файл
-  entry: ['./src/js/index.js'],
 
-  // Настройки dev-сервера
+  entry: [
+    './src/js/index.js'
+  ],
   devServer: {
     port: 5000,
     open: true,
-    contentBase: path.join(__dirname, 'dist'), // Указываем папку для статики
   },
-
   // Выходной файл
   output: {
-    filename: './js/bundle.js',
-    path: path.resolve(__dirname, 'dist'), // Указываем папку для сборки
-    publicPath: '/', // Указываем корневой путь для ресурсов
+    filename: './js/bundle.js'
   },
 
   // Source maps для удобства отладки
-  devtool: 'source-map',
-
+  devtool: "source-map",
+  resolve: {
+    alias: {
+      'img': path.resolve(__dirname, 'src/img'), // Алиас для изображений
+    },
+  },
   module: {
     rules: [
       // Транспилируем js с babel
@@ -35,8 +36,8 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env'],
-          },
-        },
+          }
+        }
       },
 
       // Компилируем SCSS в CSS
@@ -55,29 +56,23 @@ module.exports = {
         test: /\.(eot|ttf|woff|woff2)$/,
         use: [
           {
-            loader: 'file-loader',
-            options: {
-              name: 'fonts/[name].[ext]', // Указываем папку для шрифтов
-            },
+            loader: 'file-loader?name=./fonts/[name].[ext]'
           },
-        ],
+        ]
       },
+
 
       // Подключаем картинки из css
       {
         test: /\.(svg|png|jpg|jpeg|webp)$/,
         use: [
           {
-            loader: 'file-loader',
-            options: {
-              name: 'img/[name].[ext]', // Указываем папку для изображений
-            },
+            loader: 'file-loader?name=./static/[name].[ext]'
           },
-        ],
+        ]
       },
     ],
   },
-
   plugins: [
     // Подключаем файл html, стили и скрипты встроятся автоматически
     new HtmlWebpackPlugin({
@@ -87,7 +82,7 @@ module.exports = {
       minify: {
         removeComments: true,
         collapseWhitespace: false,
-      },
+      }
     }),
 
     // Кладем стили в отдельный файлик
@@ -101,6 +96,6 @@ module.exports = {
         from: './src/img',
         to: 'img',
       },
-    ]),
+    ])
   ],
 };
