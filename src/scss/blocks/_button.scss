@@ -8,12 +8,12 @@
   background-repeat: no-repeat;
   background-position: center;
   &--burger{
-    background-image: url("../img/burger.svg");
+    background-image: url('~img/burger.svg');
   }
   &--request{
-    background-image: url("../img/request.svg");
+    background-image: url('~img/request.svg');
   }
   &--status{
-    background-image: url("../img/status.svg");
+    background-image: url('~img/status.svg');
   }
 }
