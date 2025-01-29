@@ -1,0 +1,72 @@
+.menu{
+  width: 320px;
+  display: flex;
+  background: $white;
+  padding: 30px 24px;
+  position: fixed;
+  top: 0;
+  left: auto;
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+  &:hover {
+    scrollbar-width: thin;
+  }
+  @include desktop{
+    display:none;
+  }
+  &__container{
+    display: flex;
+    max-height: 920px;
+    flex-direction: column;
+  }
+  &__header{
+    gap: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 37px;
+  }
+  &__list{
+    display:flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+  &__item{
+  }
+  &__link{
+    color: $dark;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    &--active{
+      display: flex;
+    color: $dark-grey;
+      &::before{
+        position: absolute;
+        content: "";
+        background-image: url("~img/highlight.svg");
+        width: 4px;
+        height: 32px;
+        background-repeat: no-repeat;
+        top: 50%;
+        left: -24px;
+        transform: translateY(-50%);
+      }
+   }
+  }
+  &__footer{
+   margin-top: auto;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+  }
+  &__contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+

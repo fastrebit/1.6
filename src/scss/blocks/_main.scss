@@ -1,0 +1,13 @@
+.main {
+  background: $grey;
+  &__container {
+    padding-left: 16px;
+    @include tablet-above{
+      padding-left: 24px;
+    }
+    @include desktop-above{
+      padding-left: 34px;
+      margin-left: 320px;
+    }
+  }
+}

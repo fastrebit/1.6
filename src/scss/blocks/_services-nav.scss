@@ -1,0 +1,40 @@
+.services-nav{
+  position: relative;
+  &__list{
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    @include desktop-above{
+      flex-wrap: wrap;
+    }
+  }
+  &__item{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    &--active{
+      border: 2px solid $light-teal;
+      border-radius: 6px;
+    }
+  }
+  &__link{
+    color: $dark-grey;
+    white-space: nowrap;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+  }
+  &::after{
+    position: absolute;
+    background: linear-gradient(270deg, #f8f8f8 16.836%, transparent);
+    content: "";
+    height: 40px;
+    top: 0;
+    right: 0;
+    width: 50px;
+    z-index: 1;
+  }
+}

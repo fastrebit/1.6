@@ -1,9 +1,24 @@
 .header{
   padding: 16px;
   border-bottom: 1px solid $light-teal;
+  background: $white;
   &__container{
     display: flex;
     align-items: center;
     gap: 16px;
+  }
+  &__contacts{
+    display: none;
+    @include tablet-above{
+      display: flex;
+    }
+  }
+  &__logo{
+    margin-right: auto;
+
+  }
+  @include desktop-above{
+    display: none;
+
   }
 }

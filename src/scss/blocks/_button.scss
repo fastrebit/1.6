@@ -1,9 +1,7 @@
 .button{
   border-radius: 50%;
-  border: none;
   width: 40px;
   height: 40px;
-  padding: 0;
   background-color: $pink;
   background-repeat: no-repeat;
   background-position: center;
@@ -15,5 +13,24 @@
   }
   &--status{
     background-image: url('~img/status.svg');
+  }
+  &--phone{
+    background-image: url('~img/phone.svg');
+  }
+  &--chat{
+    background-image: url('~img/chat.svg');
+  }
+  &--profile{
+    background-image: url('~img/profile.svg');
+  }
+  &--close{
+    background-image: url('~img/close.svg');
+    @include desktop-above{
+      display: none;
+    }
+  }
+  &--search{
+    background-image: url('~img/search.svg');
+
   }
 }

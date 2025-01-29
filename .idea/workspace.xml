@@ -4,16 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9481fa00-34a3-4f40-a043-06111fa20026" name="Changes" comment="add fonts">
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_separator.scss" afterDir="false" />
+    <list default="true" id="9481fa00-34a3-4f40-a043-06111fa20026" name="Changes" comment="new .header text">
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_about-csp.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_container.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_languages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_logo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_services-nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_services.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_globals.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_button.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_separator.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_separator.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +29,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev-test-style-loader" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -46,19 +59,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "dev-test-style-loader",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\test3\src\scss" />
@@ -88,6 +101,9 @@
       <workItem from="1737996310819" duration="3602000" />
       <workItem from="1738085614114" duration="1156000" />
       <workItem from="1738088947185" duration="6797000" />
+      <workItem from="1738132585548" duration="19628000" />
+      <workItem from="1738155098882" duration="215000" />
+      <workItem from="1738155690030" duration="18814000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -113,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737916493556</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new .header text">
+      <option name="closed" value="true" />
+      <created>1738102207696</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738102207696</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
     <MESSAGE value="add fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fonts" />
+    <MESSAGE value="new .header text" />
+    <option name="LAST_COMMIT_MESSAGE" value="new .header text" />
   </component>
 </project>

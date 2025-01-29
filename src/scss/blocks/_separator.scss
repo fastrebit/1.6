@@ -5,9 +5,12 @@
 
   &--left{
     display: none;
+    @include tablet-above{
+      display: block;
+    }
   }
   &--right{
     margin-right: 4px;
-    margin-left: auto;
   }
+
 }

@@ -1,0 +1,34 @@
+.about-csp {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 24px;
+  align-items: start;
+  @include tablet-above{
+    flex-direction: row;
+  }
+  &__text-container{
+    flex: 1;
+  }
+  &__text {
+    display: block;
+    height: 100px;
+    overflow: hidden;
+    @include tablet-above{
+      height: 165px;
+    }
+  }
+  &__button {
+    color: $dark;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+  }
+  &__image {
+    height: 100%;
+    width: 100%;
+    flex:1;
+  }
+
+}
