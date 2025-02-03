@@ -1,0 +1,65 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 1;
+  transition: opacity 1s ease, visibility 1s ease;
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+  justify-content: end;
+  gap: 33px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  &__feedback {
+    padding: 40px 32px;
+  }
+
+  &__button {
+    margin-top: 40px;
+    @include tablet {
+      margin-top: 24px;
+      margin-left: 16px;
+    }
+  }
+
+  &__message {
+    display: flex;
+    gap: 16px;
+    &--hidden {
+      display: none;
+    }
+    @include tablet {
+      flex-direction: column;
+      border-left: 1px solid $light-teal;
+      background-color: $white;
+    }
+  }
+
+  @include tablet {
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+  }
+
+  &--hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease, visibility 1s ease;
+  }
+  &__call {
+    display: flex;
+    gap: 16px;
+    &--hidden {
+      display: none;
+    }
+    @include tablet {
+      flex-direction: column;
+      border-left: 1px solid $light-teal;
+      background-color: $white;
+    }
+  }
+
+}

@@ -1,4 +1,20 @@
 .contacts{
   display: flex;
   gap: 16px;
+  &__emal{
+    color: $dark;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: left;
+  }
+  &__phone{
+    color: $dark;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    text-align: left;
+  }
 }

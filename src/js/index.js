@@ -1,3 +1,5 @@
 import '../scss/style.scss'
-
-console.log('Works!')
+import './pinkButtons'
+import './read-more'
+import './resize';
+import './swiper.js';

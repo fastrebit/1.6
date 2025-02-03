@@ -15,6 +15,11 @@
     display: flex;
     align-items: center;
     padding: 8px 16px;
+    &:hover{
+      opacity: 0.8;
+      border: 2px solid $light-teal;
+      border-radius: 6px;
+    }
     &--active{
       border: 2px solid $light-teal;
       border-radius: 6px;

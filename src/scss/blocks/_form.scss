@@ -1,0 +1,42 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &__item{
+
+    border: 2px solid #eaeaea;
+    border-radius: 8px;
+    color: #b5b6bc;
+    height: 48px;
+    padding-left: 10px;
+    &--message{
+      display: flex;
+      resize: none;
+      scrollbar-width: none;
+      height: 118px;
+    }
+    &--submit{
+      align-self: flex-end;
+      background-color: $pink;
+      color: $white;
+      border-radius: 16px;
+      width: 132px;
+      height: 32px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  &__personal-data{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $dark-grey;
+    &--pink-link{
+      color: $pink;
+    }
+
+  }
+}

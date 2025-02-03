@@ -1,5 +1,17 @@
-.languages{
-  &__list{
+.languages {
+
+  &__list {
     display: flex;
+    gap: 7px;
   }
+  &__link {
+    color: $dark;
+    &--active {
+      color: $dark-grey;
+      font-weight: 500;
+      font-size: 16px;
+
+    }
+  }
+
 }

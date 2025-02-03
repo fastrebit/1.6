@@ -4,31 +4,41 @@
   gap: 16px;
   padding-top: 24px;
   align-items: start;
-  @include tablet-above{
+
+  @include tablet-above {
     flex-direction: row;
   }
-  &__text-container{
+
+  &__container {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: start;
   }
+
   &__text {
-    display: block;
-    height: 100px;
+    max-height: 90px; // Начальная максимальная высота
     overflow: hidden;
-    @include tablet-above{
-      height: 165px;
+    transition: max-height 0.5s ease; // Плавный переход по max-height
+
+    @include tablet-above {
+      max-height: 165px; // Максимальная высота для больших экранов
+    }
+
+    &--all {
+      max-height:500px; // Задайте максимальную высоту для полного раскрытия
     }
   }
+
   &__button {
-    color: $dark;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: -0.2px;
+    margin-left: 10px;
   }
+
   &__image {
     height: 100%;
     width: 100%;
-    flex:1;
+    flex: 1;
   }
-
 }
+

@@ -5,6 +5,10 @@
   background-color: $pink;
   background-repeat: no-repeat;
   background-position: center;
+  &:hover{
+    opacity: 0.8;
+    border: 2px solid $white;
+  }
   &--burger{
     background-image: url('~img/burger.svg');
   }
@@ -17,7 +21,7 @@
   &--phone{
     background-image: url('~img/phone.svg');
   }
-  &--chat{
+  &--message{
     background-image: url('~img/chat.svg');
   }
   &--profile{
@@ -25,12 +29,12 @@
   }
   &--close{
     background-image: url('~img/close.svg');
-    @include desktop-above{
-      display: none;
-    }
+
   }
   &--search{
     background-image: url('~img/search.svg');
-
+  }
+  &--send{
+    background-image: url('~img/white_dropdown.svg');
   }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="UTF-8" />
   <meta
@@ -18,7 +18,7 @@
       <a class="header__logo logo" href="#"></a>
       <div class="header__contacts contacts">
         <button class="button button--phone"></button>
-        <button class="button button--chat"></button>
+        <button class="button button--message"></button>
         <button class="button button--profile"></button>
       </div>
       <div class="separator separator--right"></div>
@@ -55,7 +55,7 @@
           </ul>
         </nav>
         <article class="about-csp">
-          <div class="about-csp__text-container">
+          <div class="about-csp__container">
             <p class="about-csp__text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас
               вы
               можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
@@ -70,12 +70,111 @@
               подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по
               рекомендациям и, в свою очередь, советуют нас родным и близким.
             </p>
-            <button class="about-csp__button">Читать далее</button>
+            <button class="about-csp__button more-button">Читать далее</button>
           </div>
           <div class="about-csp__image image">
             <img class="image--csp" src="./img/Picture.png" alt="cps image">
           </div>
         </article>
+      </section>
+      <section class="swiper-repair">
+        <h2 class="swiper-repair__title">Ремонт техники различных брендов</h2>
+        <div class="swiper-repair__list  ">
+          <div class="swiper-container brands-swiper">
+            <div class="swiper-wrapper brands-swiper__wrapper ">
+              <div class="swiper-slide brands-swiper__slide">
+                <div class="brands-swiper__content">
+                  <a class="brands-swiper__link" href="">
+                    <img class="brands-swiper__image" src="~img/lenovo.svg" alt="Lenovo">
+                    <div class = "dropdown-icon"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide brands-swiper__slide">
+                <div class="brands-swiper__content">
+                  <a class="brands-swiper__link" href="">
+                    <img class="brands-swiper__image" src="~img/lenovo.svg" alt="Lenovo">
+                    <div class = "dropdown-icon"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide brands-swiper__slide">
+                <div class="brands-swiper__content">
+                  <a class="brands-swiper__link" href="">
+                    <img class="brands-swiper__image" src="~img/lenovo.svg" alt="Lenovo">
+                    <div class = "dropdown-icon"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide brands-swiper__slide">
+                <div class="brands-swiper__content">
+                  <a class="brands-swiper__link" href="">
+                    <img class="brands-swiper__image" src="~img/viewsonic.svg" alt="viewsonic">
+                    <div class = "dropdown-icon"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide brands-swiper__slide">
+                <div class="brands-swiper__content">
+                  <a class="brands-swiper__link" href="">
+                    <img class="brands-swiper__image" src="~img/bosh.svg" alt="bosh">
+                    <div class = "dropdown-icon"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide brands-swiper__slide">
+                <div class="brands-swiper__content">
+                  <a class="brands-swiper__link" href="">
+                    <img class="brands-swiper__image" src="~img/hp.svg" alt="hp">
+                    <div class = "dropdown-icon"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide brands-swiper__slide">
+                <div class="brands-swiper__content">
+                  <a class="brands-swiper__link" href="">
+                    <img class="brands-swiper__image" src="~img/acer.svg" alt="acer">
+                    <div class = "dropdown-icon"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide brands-swiper__slide">
+                <div class="brands-swiper__content">
+                  <a class="brands-swiper__link" href="">
+                    <img class="brands-swiper__image" src="~img/viewsonic.svg" alt="viewsonic">
+                    <div class = "dropdown-icon"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide brands-swiper__slide">
+                <div class="brands-swiper__content">
+                  <a class="brands-swiper__link" href="">
+                    <img class="brands-swiper__image" src="~img/lenovo.svg" alt="lenovo">
+                    <div class = "dropdown-icon"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide brands-swiper__slide">
+                <div class="brands-swiper__content">
+                  <a class="brands-swiper__link" href="">
+                    <img class="brands-swiper__image" src="~img/samsung.svg" alt="samsung">
+                    <div class = "dropdown-icon"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide brands-swiper__slide ">
+                <div class="brands-swiper__content ">
+                  <a class="brands-swiper__link" href="">
+                    <img class="brands-swiper__image" src="~img/apple.svg" alt="apple">
+                    <div class = "dropdown-icon"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination brands-pagination"></div>
+          </div>
+          <button class="show-button">Показать все</button>
+        </div>
       </section>
     </div>
 
@@ -83,7 +182,7 @@
   <aside class="menu">
     <div class="menu__container">
       <header class="menu__header">
-        <button class="button button--close"></button>
+        <button class="menu__button button button--close"></button>
         <a class="logo" href="#"></a>
         <button class="button button--search"></button>
       </header>
@@ -116,7 +215,7 @@
         <div class="menu__contacts">
           <div class="contacts">
             <button class="button button--phone"></button>
-            <button class="button button--chat"></button>
+            <button class="button button--message"></button>
             <button class="button button--profile"></button>
           </div>
           <a class="contacts__emal" href="mailto:mail@cps.com">mail@cps.com</a>
@@ -139,6 +238,62 @@
     </div>
   </aside>
 </div>
+<div class="overlay overlay--hidden ">
+  <div class="overlay__message overlay__message--hidden">
+    <button class="overlay__button button button--close "></button>
+    <div class="overlay__feedback feedback">
+      <h2 class="feedback__title">Обратная связь</h2>
+      <form class="feedback__form form">
+        <input
+          type="text"
+          name="name"
+          class="form__item form__item--name"
+          placeholder="Имя"
+        />
+        <input
+          type="tel"
+          name="phone"
+          class="form__item form__item--phone"
+          placeholder="Телефон"
+        />
+        <input
+          type="email"
+          name="email"
+          class="form__item form__item--email"
+          placeholder="Электронная почта"
+        />
+        <textarea name="message" placeholder="Сообщение" class="form__item form__item--message"></textarea>
+        <p class="form__personal-data">
+          Нажимая “отправить”, вы даете согласие на
+          <a class="form__personal-data--pink-link" href="#">обработку персональных данных</a> и соглашаетесь с нашей
+          <a class="form__personal-data--pink-link">политикой конфиденциальности</a>
+        </p>
+        <input type="submit" class="form__item form__item--submit" />
+      </form>
+    </div>
+  </div>
 
+  <div class="overlay__call overlay__call--hidden ">
+    <button class="overlay__button button button--close "></button>
+    <div class="overlay__feedback feedback">
+      <h2 class="feedback__title">Заказать звонок</h2>
+      <form class="feedback__form form">
+        <input
+          type="tel"
+          name="phone"
+          class="form__item form__item--phone"
+          placeholder="Телефон"
+        />
+        <p class="form__personal-data">
+          Нажимая “отправить”, вы даете согласие на
+          <a class="form__personal-data--pink-link" href="#">обработку персональных данных</a> и соглашаетесь с нашей
+          <a class="form__personal-data--pink-link">политикой конфиденциальности</a>
+        </p>
+        <input type="submit" class="form__item form__item--submit" />
+      </form>
+    </div>
+  </div>
+
+</div>
 </body>
 </html>

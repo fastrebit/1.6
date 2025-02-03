@@ -4,29 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9481fa00-34a3-4f40-a043-06111fa20026" name="Changes" comment="new .header text">
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_about-csp.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_contacts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_container.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_languages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_logo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_services-nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_services.scss" afterDir="false" />
+    <list default="true" id="9481fa00-34a3-4f40-a043-06111fa20026" name="Changes" comment="aside,article">
+      <change afterPath="$PROJECT_DIR$/src/js/pinkButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/read-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_feedback.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_more-button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_overlay.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/dropdown.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_about-csp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_about-csp.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_separator.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_separator.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_languages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_languages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_services-nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_services-nav.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -69,6 +80,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -103,7 +115,12 @@
       <workItem from="1738088947185" duration="6797000" />
       <workItem from="1738132585548" duration="19628000" />
       <workItem from="1738155098882" duration="215000" />
-      <workItem from="1738155690030" duration="18814000" />
+      <workItem from="1738155690030" duration="19248000" />
+      <workItem from="1738340571377" duration="14704000" />
+      <workItem from="1738421654146" duration="11979000" />
+      <workItem from="1738485808654" duration="10008000" />
+      <workItem from="1738501205410" duration="11930000" />
+      <workItem from="1738606134831" duration="2797000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -137,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738102207696</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="aside,article">
+      <option name="closed" value="true" />
+      <created>1738188119107</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738188119107</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +172,7 @@
     <MESSAGE value="new" />
     <MESSAGE value="add fonts" />
     <MESSAGE value="new .header text" />
-    <option name="LAST_COMMIT_MESSAGE" value="new .header text" />
+    <MESSAGE value="aside,article" />
+    <option name="LAST_COMMIT_MESSAGE" value="aside,article" />
   </component>
 </project>
