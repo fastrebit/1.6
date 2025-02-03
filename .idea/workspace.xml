@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9481fa00-34a3-4f40-a043-06111fa20026" name="Changes" comment="aside,article">
-      <change afterPath="$PROJECT_DIR$/src/js/pinkButtons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/read-more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/swiper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_feedback.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_more-button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_overlay.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_brands-pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_brands-swiper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_dropdown-icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_swiper-repair.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/dropdown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/swiper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/_about-csp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_about-csp.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_languages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_languages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_services-nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_services-nav.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev-test-style-loader" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

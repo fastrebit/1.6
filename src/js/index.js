@@ -1,3 +1,4 @@
+import "swiper/swiper.scss"
 import '../scss/style.scss'
 import './pinkButtons'
 import './read-more'
