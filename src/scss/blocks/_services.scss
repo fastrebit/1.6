@@ -1,0 +1,24 @@
+.services {
+  &__title {
+    position: relative;
+    padding: 24px 0;
+    color: $dark;
+    letter-spacing: -0.6px;
+    &::before{
+      position: absolute;
+      content: "";
+      background-image: url("~img/highlight.svg");
+      width: 4px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-position: center;
+      left: -16px;
+      @include tablet-above{
+        left: -24px;
+      }
+      @include desktop-above{
+        left: -34px;
+      }
+    }
+  }
+}

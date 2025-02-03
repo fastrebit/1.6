@@ -4,29 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9481fa00-34a3-4f40-a043-06111fa20026" name="Changes" comment="new .header" />
+    <list default="true" id="9481fa00-34a3-4f40-a043-06111fa20026" name="Changes" comment="aside,article">
+      <change afterPath="$PROJECT_DIR$/src/js/pinkButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/read-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_feedback.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_more-button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_overlay.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/dropdown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_about-csp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_about-csp.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_languages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_languages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_services-nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_services-nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="dev" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="dev-test-style-loader" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,19 +70,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "dev",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\test3\src\scss" />
@@ -96,7 +113,14 @@
       <workItem from="1737996310819" duration="3602000" />
       <workItem from="1738085614114" duration="1156000" />
       <workItem from="1738088947185" duration="6797000" />
-      <workItem from="1738098488154" duration="319000" />
+      <workItem from="1738132585548" duration="19628000" />
+      <workItem from="1738155098882" duration="215000" />
+      <workItem from="1738155690030" duration="19248000" />
+      <workItem from="1738340571377" duration="14704000" />
+      <workItem from="1738421654146" duration="11979000" />
+      <workItem from="1738485808654" duration="10008000" />
+      <workItem from="1738501205410" duration="11930000" />
+      <workItem from="1738606134831" duration="2797000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -122,21 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1737916493556</updated>
     </task>
-    <task id="LOCAL-00004" summary="new .header">
+    <task id="LOCAL-00004" summary="new .header text">
       <option name="closed" value="true" />
-      <created>1738098666443</created>
+      <created>1738102207696</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1738098666443</updated>
+      <updated>1738102207696</updated>
     </task>
-    <task id="LOCAL-00005" summary="new .header">
+    <task id="LOCAL-00005" summary="aside,article">
       <option name="closed" value="true" />
-      <created>1738098677114</created>
+      <created>1738188119107</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1738098677114</updated>
+      <updated>1738188119107</updated>
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
@@ -147,7 +171,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
     <MESSAGE value="add fonts" />
-    <MESSAGE value="new .header" />
-    <option name="LAST_COMMIT_MESSAGE" value="new .header" />
+    <MESSAGE value="new .header text" />
+    <MESSAGE value="aside,article" />
+    <option name="LAST_COMMIT_MESSAGE" value="aside,article" />
   </component>
 </project>

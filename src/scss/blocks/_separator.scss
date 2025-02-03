@@ -1,0 +1,16 @@
+.separator{
+  background-image: url("~img/separator.svg");
+  height: 32px;
+  width: 2px;
+
+  &--left{
+    display: none;
+    @include tablet-above{
+      display: block;
+    }
+  }
+  &--right{
+    margin-right: 4px;
+  }
+
+}

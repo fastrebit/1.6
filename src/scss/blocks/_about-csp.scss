@@ -1,0 +1,44 @@
+.about-csp {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 24px;
+  align-items: start;
+
+  @include tablet-above {
+    flex-direction: row;
+  }
+
+  &__container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: start;
+  }
+
+  &__text {
+    max-height: 90px; // Начальная максимальная высота
+    overflow: hidden;
+    transition: max-height 0.5s ease; // Плавный переход по max-height
+
+    @include tablet-above {
+      max-height: 165px; // Максимальная высота для больших экранов
+    }
+
+    &--all {
+      max-height:500px; // Задайте максимальную высоту для полного раскрытия
+    }
+  }
+
+  &__button {
+    margin-left: 10px;
+  }
+
+  &__image {
+    height: 100%;
+    width: 100%;
+    flex: 1;
+  }
+}
+

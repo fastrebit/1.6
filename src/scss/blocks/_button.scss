@@ -1,19 +1,40 @@
 .button{
   border-radius: 50%;
-  border: none;
   width: 40px;
   height: 40px;
-  padding: 0;
   background-color: $pink;
   background-repeat: no-repeat;
   background-position: center;
+  &:hover{
+    opacity: 0.8;
+    border: 2px solid $white;
+  }
   &--burger{
-    background-image: url("../img/burger.svg");
+    background-image: url('~img/burger.svg');
   }
   &--request{
-    background-image: url("../img/request.svg");
+    background-image: url('~img/request.svg');
   }
   &--status{
-    background-image: url("../img/status.svg");
+    background-image: url('~img/status.svg');
+  }
+  &--phone{
+    background-image: url('~img/phone.svg');
+  }
+  &--message{
+    background-image: url('~img/chat.svg');
+  }
+  &--profile{
+    background-image: url('~img/profile.svg');
+  }
+  &--close{
+    background-image: url('~img/close.svg');
+
+  }
+  &--search{
+    background-image: url('~img/search.svg');
+  }
+  &--send{
+    background-image: url('~img/white_dropdown.svg');
   }
 }

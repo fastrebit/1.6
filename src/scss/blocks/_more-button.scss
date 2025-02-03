@@ -1,0 +1,18 @@
+.more-button {
+  color: $dark;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  &::before{
+    position: absolute;
+    content: "";
+    background-image: url("~img/expand.svg");
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    transform: translateX(-20px);
+    z-index: 1222;
+
+  }
+}
