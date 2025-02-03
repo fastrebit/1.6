@@ -1,8 +1,10 @@
-import Swiper from 'swiper';
-// import Swiper styles
-import 'swiper/css';
+import Swiper, { Navigation, Pagination } from "swiper"
+Swiper.use([Navigation, Pagination])
 
+
+// import Swiper styles
 let newSwiper = new Swiper('.swiper-container', {
+  modules: [Navigation, Pagination],
   direction: 'horizontal',
   spaceBetween: 16,
   slidesPerView: 'auto',

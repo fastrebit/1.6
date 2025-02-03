@@ -1,0 +1,54 @@
+.brands-swiper{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  &__slide{
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+    width: 224px;
+  }
+  &__link{
+    padding: 16px;
+    height: 72px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &::after{
+    background: linear-gradient(270deg, #f8f8f8 16.836%, transparent);
+    content: "";
+    height: 81px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    z-index: 100;
+  }
+  @include tablet-above{
+    &::after{
+      display: none;
+    }
+
+    &__wrapper{
+      transform: translate3d(0px, 0px, 0px)!important;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px 24px;
+    }
+    &__slide{
+      width: 224px;
+      height: 72px;
+    }
+  }
+  @include desktop-above{
+    &__wrapper{
+      gap: 16px 32px;
+    }
+    &__slide{
+      width: 240px;
+      height: 72px;
+    }
+  }
+}
