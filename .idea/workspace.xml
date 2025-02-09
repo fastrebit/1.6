@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9481fa00-34a3-4f40-a043-06111fa20026" name="Changes" comment="1.6">
+    <list default="true" id="9481fa00-34a3-4f40-a043-06111fa20026" name="Changes" comment="readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_brands-swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_brands-swiper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_prise-swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_prise-swiper.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_menu.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +108,7 @@
       <workItem from="1738944871260" duration="15798000" />
       <workItem from="1739003131030" duration="15781000" />
       <workItem from="1739090526916" duration="9882000" />
-      <workItem from="1739128929167" duration="1063000" />
+      <workItem from="1739128929167" duration="1845000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -167,7 +166,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739129184686</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change color">
+      <option name="closed" value="true" />
+      <created>1739130968623</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739130968623</updated>
+    </task>
+    <task id="LOCAL-00009" summary="readme">
+      <option name="closed" value="true" />
+      <created>1739131113991</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739131113991</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +195,8 @@
     <MESSAGE value="aside,article" />
     <MESSAGE value="add 1.5" />
     <MESSAGE value="1.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.6" />
+    <MESSAGE value="change color" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
 </project>
