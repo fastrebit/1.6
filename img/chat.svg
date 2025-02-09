@@ -1,0 +1,18 @@
+<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+ <defs>
+  <path d="m28,11l-16,0c-1.1,0 -1.99,0.9 -1.99,2l-0.01,18l4,-5l14,0c1.1,0 2,-0.9 2,-2l0,-11c0,-1.1 -0.9,-2 -2,-2zm-7,11l-6,0c-0.55,0 -1,-0.45 -1,-1c0,-0.55 0.45,-1 1,-1l6,0c0.55,0 1,0.45 1,1c0,0.55 -0.45,1 -1,1zm4,-5l-10,0c-0.55,0 -1,-0.45 -1,-1c0,-0.55 0.45,-1 1,-1l10,0c0.55,0 1,0.45 1,1c0,0.55 -0.45,1 -1,1z" id="path-1"/>
+ </defs>
+ <g>
+  <title>Слой 1</title>
+  <g id="Symbols" fill-rule="evenodd" stroke="null">
+   <g id="ic/chat" stroke="null">
+    <mask fill="#ffffff" id="mask-2" stroke="null">
+     <use fill="#ffffff" xlink:href="#path-1" id="svg_1" stroke="null"/>
+    </mask>
+    <use fill="#ffffff" id="icon" xlink:href="#path-1" y="-11" x="-10" stroke="null" transform="matrix(1.03846 0 0 1 0 0)"/>
+   </g>
+  </g>
+  <rect fill="none" stroke="#000" x="-58.07692" y="-3.84615" width="45.76923" height="18.07692" id="svg_3"/>
+  <rect fill="none" stroke="#000" x="-33.46154" y="-4.23077" width="5" height="16.15385" id="svg_4"/>
+ </g>
+</svg>
