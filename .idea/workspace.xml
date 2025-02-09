@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9481fa00-34a3-4f40-a043-06111fa20026" name="Changes" comment="readme">
+    <list default="true" id="9481fa00-34a3-4f40-a043-06111fa20026" name="Changes" comment="add transform: menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,7 @@
       <workItem from="1738944871260" duration="15798000" />
       <workItem from="1739003131030" duration="15781000" />
       <workItem from="1739090526916" duration="9882000" />
-      <workItem from="1739128929167" duration="1845000" />
+      <workItem from="1739128929167" duration="2953000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -182,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739131113991</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add transform: menu">
+      <option name="closed" value="true" />
+      <created>1739132128316</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739132128316</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +205,7 @@
     <MESSAGE value="1.6" />
     <MESSAGE value="change color" />
     <MESSAGE value="readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+    <MESSAGE value="add transform: menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="add transform: menu" />
   </component>
 </project>

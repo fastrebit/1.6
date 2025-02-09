@@ -4,8 +4,8 @@
 @import 'media';
 @import 'globals';
 
+
 @import '~swiper/swiper-bundle.min.css';
-@import 'blocks/brands-swiper';
 @import "blocks/container";
 @import 'blocks/button';
 @import 'blocks/separator';
@@ -28,5 +28,6 @@
 @import 'blocks/image';
 @import 'blocks/types-swiper';
 @import 'blocks/prise-swiper';
-@import 'blocks/prices';
 @import 'blocks/footer';
+@import 'blocks/brands-swiper';
+@import 'blocks/prices';
