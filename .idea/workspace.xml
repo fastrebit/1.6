@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9481fa00-34a3-4f40-a043-06111fa20026" name="Changes" comment="add transform: menu">
+    <list default="true" id="9481fa00-34a3-4f40-a043-06111fa20026" name="Changes" comment="remove errors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,7 @@
       <workItem from="1738944871260" duration="15798000" />
       <workItem from="1739003131030" duration="15781000" />
       <workItem from="1739090526916" duration="9882000" />
-      <workItem from="1739128929167" duration="2953000" />
+      <workItem from="1739128929167" duration="4580000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -190,7 +189,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739132128316</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="remove errors">
+      <option name="closed" value="true" />
+      <created>1739133006374</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739133006374</updated>
+    </task>
+    <task id="LOCAL-00012" summary="remove errors">
+      <option name="closed" value="true" />
+      <created>1739133031737</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739133031737</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +221,7 @@
     <MESSAGE value="change color" />
     <MESSAGE value="readme" />
     <MESSAGE value="add transform: menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="add transform: menu" />
+    <MESSAGE value="remove errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove errors" />
   </component>
 </project>
