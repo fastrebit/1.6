@@ -2,9 +2,13 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid #FF3E79;
+  border: 2px solid $pink;
   background-image: url("~img/pink_dropdown.svg");
   background-repeat: no-repeat;
   background-position: center;
+  &--white{
+    background-image: url("~img/white_dropdown.svg");
+  }
+
 }
 

@@ -4,19 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9481fa00-34a3-4f40-a043-06111fa20026" name="Changes" comment="aside,article">
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_brands-pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_brands-swiper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_dropdown-icon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_swiper-repair.scss" afterDir="false" />
+    <list default="true" id="9481fa00-34a3-4f40-a043-06111fa20026" name="Changes" comment="add 1.5">
+      <change afterPath="$PROJECT_DIR$/src/js/show-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_prices.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_prise-swiper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_types-swiper.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pinkButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pinkButtons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/read-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/readMore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/swiper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/_about-csp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_about-csp.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_brands-pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_brands-swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_brands-swiper.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_container.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_dropdown-icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_dropdown-icon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_feedback.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_feedback.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_languages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_languages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_more-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_more-button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_overlay.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_overlay.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_services-nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_services-nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_services.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_swiper-repair.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_repair-section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +85,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -113,6 +132,12 @@
       <workItem from="1738485808654" duration="10008000" />
       <workItem from="1738501205410" duration="11930000" />
       <workItem from="1738606134831" duration="2797000" />
+      <workItem from="1738691107059" duration="5784000" />
+      <workItem from="1738782225532" duration="8760000" />
+      <workItem from="1738867943537" duration="546000" />
+      <workItem from="1738944871260" duration="15798000" />
+      <workItem from="1739003131030" duration="15781000" />
+      <workItem from="1739090526916" duration="9882000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -154,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738188119107</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add 1.5">
+      <option name="closed" value="true" />
+      <created>1738620801449</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738620801449</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +198,7 @@
     <MESSAGE value="add fonts" />
     <MESSAGE value="new .header text" />
     <MESSAGE value="aside,article" />
-    <option name="LAST_COMMIT_MESSAGE" value="aside,article" />
+    <MESSAGE value="add 1.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 1.5" />
   </component>
 </project>

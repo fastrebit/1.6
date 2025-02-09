@@ -3,4 +3,12 @@
   max-width: 1440px;
   margin: 0 auto;
   flex-direction: column;
+  gap: 40px;
+  @include desktop-above{
+    gap: 50px;
+  }
+  @include tablet-above{
+    gap: 32px;
+  }
+
 }

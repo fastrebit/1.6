@@ -1,13 +1,17 @@
 .main {
   background: $grey;
-  &__container {
+  &__section {
+    display: flex;
+    flex-direction: column;
     padding-left: 16px;
     @include tablet-above{
       padding-left: 24px;
+      gap:32px;
     }
     @include desktop-above{
-      padding-left: 34px;
+      padding-left: 32px;
       margin-left: 320px;
+      gap:50px;
     }
   }
 }

@@ -5,6 +5,7 @@ Swiper.use([Navigation, Pagination])
 // import Swiper styles
 let newSwiper = new Swiper('.swiper-container', {
   modules: [Navigation, Pagination],
+  loop: true,
   direction: 'horizontal',
   spaceBetween: 16,
   slidesPerView: 'auto',
@@ -17,6 +18,7 @@ let newSwiper = new Swiper('.swiper-container', {
       slidesPerView: 'auto',
       enabled: false,
       spaceBetween: 0,
+      loop: false,
     },
   },
   pagination: {
@@ -25,18 +27,3 @@ let newSwiper = new Swiper('.swiper-container', {
   },
 });
 
-let content__list = document.querySelector(".content__list");
-let showButtons = document.querySelector('.show-button');
-
-showButtons.addEventListener('click', () => {
-
-  content__list.classList.toggle('open');
-
-  if (showButtons.textContent === "Показать все") {
-    showButtons.textContent = "Скрыть";
-  } else {
-    showButtons.textContent = "Показать все";
-  }
-
-  showButtons.classList.toggle('rotate');
-})

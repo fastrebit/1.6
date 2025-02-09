@@ -8,6 +8,9 @@
   />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title><%= htmlWebpackPlugin.options.title %></title>
+  <link rel="stylesheet" href="scss/blocks/_brands-swiper.scss">
+  <link rel="stylesheet" href="scss/blocks/_prices.scss">
+  <link rel="stylesheet" href="scss/blocks/_prise-swiper.scss">
 </head>
 <body>
 <div class="container">
@@ -27,10 +30,20 @@
     </div>
   </header>
   <main class="main">
-    <div class="main__container">
-      <section class='services'>
+    <section class="main__section">
+      <div class='services'>
         <div class="services__title">
           <h1>Услуги и сервисы</h1>
+          <div class="services__buttons">
+            <div class="services__buttons--request">
+            <a>Оставить заявку</a>
+            <button class="button button--request services__button"></button>
+            </div>
+            <div class="services__buttons--status">
+            <a>Статус ремонта</a>
+            <button class="button button--status"> </button>
+            </div>
+          </div>
         </div>
         <nav class="services__nav services-nav">
           <ul class="services-nav__list">
@@ -56,7 +69,8 @@
         </nav>
         <article class="about-csp">
           <div class="about-csp__container">
-            <p class="about-csp__text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас
+            <p class="about-csp__text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у
+              нас
               вы
               можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
               <br>
@@ -76,17 +90,17 @@
             <img class="image--csp" src="./img/Picture.png" alt="cps image">
           </div>
         </article>
-      </section>
-      <section class="swiper-repair">
-        <h2 class="swiper-repair__title">Ремонт техники различных брендов</h2>
-        <div class="swiper-repair__list  ">
+      </div>
+      <div class="repair-section">
+        <h2 class="repair-section__title">Ремонт техники различных брендов</h2>
+        <div class="repair-section__list">
           <div class="swiper-container brands-swiper">
             <div class="swiper-wrapper brands-swiper__wrapper ">
               <div class="swiper-slide brands-swiper__slide">
                 <div class="brands-swiper__content">
                   <a class="brands-swiper__link" href="">
                     <img class="brands-swiper__image" src="./img/lenovo.svg" alt="Lenovo">
-                    <div class = "dropdown-icon"></div>
+                    <div class="dropdown-icon"></div>
                   </a>
                 </div>
               </div>
@@ -94,7 +108,7 @@
                 <div class="brands-swiper__content">
                   <a class="brands-swiper__link" href="">
                     <img class="brands-swiper__image" src="./img/lenovo.svg" alt="Lenovo">
-                    <div class = "dropdown-icon"></div>
+                    <div class="dropdown-icon"></div>
                   </a>
                 </div>
               </div>
@@ -102,7 +116,7 @@
                 <div class="brands-swiper__content">
                   <a class="brands-swiper__link" href="">
                     <img class="brands-swiper__image" src="./img/lenovo.svg" alt="Lenovo">
-                    <div class = "dropdown-icon"></div>
+                    <div class="dropdown-icon"></div>
                   </a>
                 </div>
               </div>
@@ -110,7 +124,7 @@
                 <div class="brands-swiper__content">
                   <a class="brands-swiper__link" href="">
                     <img class="brands-swiper__image" src="./img/viewsonic.svg" alt="viewsonic">
-                    <div class = "dropdown-icon"></div>
+                    <div class="dropdown-icon"></div>
                   </a>
                 </div>
               </div>
@@ -118,7 +132,7 @@
                 <div class="brands-swiper__content">
                   <a class="brands-swiper__link" href="">
                     <img class="brands-swiper__image" src="./img/bosh.svg" alt="bosh">
-                    <div class = "dropdown-icon"></div>
+                    <div class="dropdown-icon"></div>
                   </a>
                 </div>
               </div>
@@ -126,7 +140,7 @@
                 <div class="brands-swiper__content">
                   <a class="brands-swiper__link" href="">
                     <img class="brands-swiper__image" src="./img/hp.svg" alt="hp">
-                    <div class = "dropdown-icon"></div>
+                    <div class="dropdown-icon"></div>
                   </a>
                 </div>
               </div>
@@ -134,7 +148,7 @@
                 <div class="brands-swiper__content">
                   <a class="brands-swiper__link" href="">
                     <img class="brands-swiper__image" src="./img/acer.svg" alt="acer">
-                    <div class = "dropdown-icon"></div>
+                    <div class="dropdown-icon"></div>
                   </a>
                 </div>
               </div>
@@ -142,7 +156,7 @@
                 <div class="brands-swiper__content">
                   <a class="brands-swiper__link" href="">
                     <img class="brands-swiper__image" src="./img/viewsonic.svg" alt="viewsonic">
-                    <div class = "dropdown-icon"></div>
+                    <div class="dropdown-icon"></div>
                   </a>
                 </div>
               </div>
@@ -150,7 +164,7 @@
                 <div class="brands-swiper__content">
                   <a class="brands-swiper__link" href="">
                     <img class="brands-swiper__image" src="./img/lenovo.svg" alt="lenovo">
-                    <div class = "dropdown-icon"></div>
+                    <div class="dropdown-icon"></div>
                   </a>
                 </div>
               </div>
@@ -158,7 +172,7 @@
                 <div class="brands-swiper__content">
                   <a class="brands-swiper__link" href="">
                     <img class="brands-swiper__image" src="./img/samsung.svg" alt="samsung">
-                    <div class = "dropdown-icon"></div>
+                    <div class="dropdown-icon"></div>
                   </a>
                 </div>
               </div>
@@ -166,19 +180,202 @@
                 <div class="brands-swiper__content ">
                   <a class="brands-swiper__link" href="">
                     <img class="brands-swiper__image" src="./img/apple.svg" alt="apple">
-                    <div class = "dropdown-icon"></div>
+                    <div class="dropdown-icon"></div>
                   </a>
                 </div>
               </div>
             </div>
-            <div class="swiper-pagination brands-pagination"></div>
+            <div class="swiper-pagination pagination"></div>
           </div>
-          <button class="show-button">Показать все</button>
         </div>
-      </section>
-    </div>
-
+        <button class="more-button  repair-section__button">Показать все</button>
+      </div>
+      <div class="repair-section">
+        <h2 class="repair-section__title">Ремонт различных видов техники</h2>
+        <div class="repair-section__list">
+          <div class="swiper-container types-swiper">
+            <div class="swiper-wrapper types-swiper__wrapper ">
+              <div class="swiper-slide types-swiper__slide">
+                <div class="types-swiper__content">
+                  <a class="types-swiper__link" href="">
+                    <span class="types-swiper__text">Ремонт ноутбуков</span>
+                    <div class="dropdown-icon types-swiper__button"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide types-swiper__slide">
+                <div class="types-swiper__content">
+                  <a class="types-swiper__link" href="">
+                    <span class="types-swiper__text">Ремонт планшетов</span>
+                    <div class="dropdown-icon types-swiper__button"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide types-swiper__slide">
+                <div class="types-swiper__content">
+                  <a class="types-swiper__link" href="">
+                    <span class="types-swiper__text">Ремонт пк</span>
+                    <div class="dropdown-icon types-swiper__button"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide types-swiper__slide">
+                <div class="types-swiper__content">
+                  <a class="types-swiper__link" href="">
+                    <span class="types-swiper__text">Ремонт мониторов</span>
+                    <div class="dropdown-icon types-swiper__button"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide types-swiper__slide">
+                <div class="types-swiper__content">
+                  <a class="types-swiper__link" href="">
+                    <span class="types-swiper__text">Ремонт ноутбуков</span>
+                    <div class="dropdown-icon types-swiper__button"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide types-swiper__slide">
+                <div class="types-swiper__content">
+                  <a class="types-swiper__link" href="">
+                    <span class="types-swiper__text">Ремонт пк</span>
+                    <div class="dropdown-icon types-swiper__button"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide types-swiper__slide">
+                <div class="types-swiper__content">
+                  <a class="types-swiper__link" href="">
+                    <span class="types-swiper__text">Ремонт планшетов</span>
+                    <div class="dropdown-icon types-swiper__button"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide types-swiper__slide">
+                <div class="types-swiper__content">
+                  <a class="types-swiper__link" href="">
+                    <span class="types-swiper__text">Ремонт ноутбуков</span>
+                    <div class="dropdown-icon types-swiper__button"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide types-swiper__slide">
+                <div class="types-swiper__content">
+                  <a class="types-swiper__link" href="">
+                    <span class="types-swiper__text">Ремонт телефона</span>
+                    <div class="dropdown-icon types-swiper__button"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide types-swiper__slide">
+                <div class="types-swiper__content">
+                  <a class="types-swiper__link" href="">
+                    <span class="types-swiper__text">Ремонт моноблока</span>
+                    <div class="dropdown-icon types-swiper__button"></div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide types-swiper__slide">
+                <div class="types-swiper__content">
+                  <a class="types-swiper__link" href="">
+                    <span class="types-swiper__text">Ремонт ноутбуков</span>
+                    <div class="dropdown-icon types-swiper__button"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination pagination"></div>
+          </div>
+        </div>
+        <button class="more-button repair-section__button">Показать все</button>
+      </div>
+      <div class="repair-section">
+        <h2 class="repair-section__title">Цены на услуги</h2>
+        <div class="repair-section__list repair-section__list--prise ">
+          <div class="repair-section__prise">
+            <span>Ремонтные услуги</span>
+            <span>Цена</span>
+            <span>Срок</span>
+          </div>
+          <div class="swiper-container prise-swiper">
+            <div class="swiper-wrapper prise-swiper__wrapper ">
+              <div class="swiper-slide prise-swiper__slide">
+                <div class="prise-swiper__content">
+                  <a class="prise-swiper__link" href="">
+                    <div class="prices">
+                      <span class="prices__service">Диагностика</span>
+                      <span class="prices__price">Бесплатно</span>
+                      <span class="prices__time">30 Мин</span>
+                      <button class="prices__button">Заказать
+                        </button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide prise-swiper__slide">
+                <div class="prise-swiper__content">
+                  <a class="prise-swiper__link" href="">
+                    <div class="prices">
+                      <span class="prices__service">Замена дисплея</span>
+                      <span class="prices__price">1 000 ₽</span>
+                      <span class="prices__time">30-120 Мин</span>
+                      <button class="prices__button">Заказать</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide prise-swiper__slide">
+                <div class="prise-swiper__content">
+                  <a class="prise-swiper__link" href="">
+                    <div class="prices">
+                      <span class="prices__service">Замена полифонического динамика</span>
+                      <span class="prices__price">1 000 ₽</span>
+                      <span class="prices__time">30-120 Мин</span>
+                      <button class="prices__button">Заказать</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide prise-swiper__slide">
+                <div class="prise-swiper__content">
+                  <a class="prise-swiper__link" href="">
+                    <div class="prices">
+                      <span class="prices__service">Тестирование с выдачей технического заключения</span>
+                      <span class="prices__price">1 000 ₽</span>
+                      <span class="prices__time">30-120 Мин</span>
+                      <button class="prices__button">Заказать</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide prise-swiper__slide">
+                <div class="prise-swiper__content">
+                  <a class="prise-swiper__link" href="">
+                    <div class="prices">
+                      <span class="prices__service">Замена программного обеспечения</span>
+                      <span class="prices__price">1 000 ₽</span>
+                      <span class="prices__time">30-120 Мин</span>
+                      <button class="prices__button">Заказать</button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination pagination"></div>
+          </div>
+        </div>
+        <p class="repair-section__text">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого
+          предложения на постоянное обслуживание, оставьте заявку.</p>
+        <a class="repair-section__link" href="#">Получить коммерческое предложение</a>
+      </div>
+    </section>
   </main>
+  <footer class="footer">
+    <p class="footer__text">© 2019 CPS <br>
+      Разработано командой Apesong </p>
+    <p class="footer__text">Политика конфиденциальности</p>
+    <p class="footer__text">Информация, размещенная на данной странице, не является публичной офертой</p>
+  </footer>
   <aside class="menu">
     <div class="menu__container">
       <header class="menu__header">

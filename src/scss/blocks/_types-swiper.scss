@@ -1,11 +1,11 @@
-.brands-swiper{
+.types-swiper{
   width: 100%;
   position: relative;
   overflow: hidden;
   &__slide{
-    border: 1px solid rgb(234, 234, 234);
+    border: 1px solid $grey;
     border-radius: 6px;
-    background: rgb(255, 255, 255);
+    background: $white;
     width: 224px;
     &:hover{
       border: 1px solid $pink;
@@ -13,21 +13,24 @@
   }
   &__link{
     padding: 16px;
-    height: 72px;
+    height: 160px;
     display:flex;
     justify-content: space-between;
-    align-items: center;
-
+    flex-direction: column;
+    align-items: start;
+    color: $dark;
   }
-
+  &__button{
+    align-self: end;
+  }
   &::after{
-    background: linear-gradient(270deg, #f8f8f8 16.836%, transparent);
+    background: linear-gradient(270deg, $white 16.836%, transparent);
     content: "";
-    height: 81px;
+    height: 160px;
     position: absolute;
     top: 0;
     right: 0;
-    width: 24px;
+    width: 34px;
     z-index: 100;
   }
   @include tablet-above{
@@ -43,7 +46,6 @@
     }
     &__slide{
       width: 224px;
-      height: 72px;
     }
   }
   @include desktop-above{
@@ -52,7 +54,6 @@
     }
     &__slide{
       width: 240px;
-      height: 72px;
     }
   }
 }

@@ -1,6 +1,7 @@
 .contacts{
   display: flex;
   gap: 16px;
+
   &__emal{
     color: $dark;
     font-size: 16px;
@@ -8,6 +9,9 @@
     line-height: 24px;
     letter-spacing: -0.2px;
     text-align: left;
+    &:hover{
+      scale: 1.1;
+    }
   }
   &__phone{
     color: $dark;
@@ -16,5 +20,8 @@
     line-height: 32px;
     letter-spacing: -0.6px;
     text-align: left;
+    &:hover{
+      border-bottom: 2px solid $dark;
+    }
   }
 }

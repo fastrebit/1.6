@@ -1,0 +1,90 @@
+.prices{
+  display: grid;
+  grid-template-columns:109px 1fr;
+  color: rgb(27, 28, 33);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  height: 100%;
+  align-items: center;
+  &__service{
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+    &::before{
+      content: 'Ремонтные услуги';
+      color: $dark-grey;
+      @include tablet-above{
+        display: none;
+      }
+    }
+  }
+  &__price{
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+    &::before{
+      content: 'Цена';
+      color: $dark-grey;
+      @include tablet-above{
+        display: none;
+      }
+    }
+  }
+  &__time{
+    grid-column: 1/1;
+    display: flex;
+    flex-direction: column;
+    &::before{
+      content: 'Срок';
+      color: $dark-grey;
+      @include tablet-above{
+        display: none;
+      }
+    }
+  }
+  &__button{
+    display: flex;
+    background-color: $pink;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 119px;
+    height: 32px;
+    color: $white;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    text-transform: uppercase;
+    pointer-events: auto;
+    &::after{
+      content: '';
+      display: block;
+      width: 24px;
+      height: 24px;
+      background-image: url("~img/white_dropdown.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    &:hover{
+      border: 2px solid $dark-grey;
+    }
+  }
+  @include tablet-above{
+    width: 100%;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: start;
+    &__service,
+    &__price,
+    &__time,
+    &__button {
+      grid-column: auto;
+    }
+  }
+}

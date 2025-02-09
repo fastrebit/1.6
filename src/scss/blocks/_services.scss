@@ -1,9 +1,13 @@
 .services {
+
   &__title {
     position: relative;
     padding: 24px 0;
     color: $dark;
     letter-spacing: -0.6px;
+    display: flex;
+    width: 100%;
+    gap: 32px;
     &::before{
       position: absolute;
       content: "";
@@ -19,6 +23,20 @@
       @include desktop-above{
         left: -34px;
       }
+    }
+  }
+  &__buttons{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    &--request,&--status{
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    @include desktop{
+      display: none;
     }
   }
 }

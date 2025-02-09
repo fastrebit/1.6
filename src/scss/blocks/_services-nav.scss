@@ -23,6 +23,7 @@
     &--active{
       border: 2px solid $light-teal;
       border-radius: 6px;
+      background-color: $white;
     }
   }
   &__link{
@@ -34,12 +35,15 @@
   }
   &::after{
     position: absolute;
-    background: linear-gradient(270deg, #f8f8f8 16.836%, transparent);
+    background: linear-gradient(270deg, $white 16.836%, transparent);
     content: "";
     height: 40px;
     top: 0;
     right: 0;
     width: 50px;
     z-index: 1;
+    @include tablet-above{
+      display: none;
+    }
   }
 }
