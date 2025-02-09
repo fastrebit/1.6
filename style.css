@@ -363,50 +363,6 @@ button {
 .hidden {
   display: none !important; }
 
-.brands-swiper {
-  width: 100%;
-  position: relative;
-  overflow: hidden; }
-  .brands-swiper__slide {
-    border: 1px solid #eaeaea;
-    border-radius: 6px;
-    background: white;
-    width: 224px; }
-    .brands-swiper__slide:hover {
-      border: 1px solid #FF3E79; }
-  .brands-swiper__link {
-    padding: 16px;
-    height: 72px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-  .brands-swiper::after {
-    background: linear-gradient(270deg, #fff 16.836%, transparent);
-    content: "";
-    height: 81px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 24px;
-    z-index: 100; }
-  @media (min-width: 769px) {
-    .brands-swiper::after {
-      display: none; }
-    .brands-swiper__wrapper {
-      transform: translate3d(0px, 0px, 0px) !important;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 16px 24px; }
-    .brands-swiper__slide {
-      width: 224px;
-      height: 72px; } }
-  @media (min-width: 1367px) {
-    .brands-swiper__wrapper {
-      gap: 16px 32px; }
-    .brands-swiper__slide {
-      width: 240px;
-      height: 72px; } }
-
 .container {
   display: flex;
   max-width: 1440px;
@@ -1078,6 +1034,50 @@ button {
     @media (min-width: 769px) {
       .prise-swiper::after {
         display: none; } }
+
+.brands-swiper {
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+  .brands-swiper__slide {
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    background: white;
+    width: 224px; }
+    .brands-swiper__slide:hover {
+      border: 1px solid #FF3E79; }
+  .brands-swiper__link {
+    padding: 16px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .brands-swiper::after {
+    background: linear-gradient(270deg, #fff 16.836%, transparent);
+    content: "";
+    height: 81px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    z-index: 100; }
+  @media (min-width: 769px) {
+    .brands-swiper::after {
+      display: none; }
+    .brands-swiper__wrapper {
+      transform: translate3d(0px, 0px, 0px) !important;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px 24px; }
+    .brands-swiper__slide {
+      width: 224px;
+      height: 72px; } }
+  @media (min-width: 1367px) {
+    .brands-swiper__wrapper {
+      gap: 16px 32px; }
+    .brands-swiper__slide {
+      width: 240px;
+      height: 72px; } }
 
 .prices {
   display: grid;
