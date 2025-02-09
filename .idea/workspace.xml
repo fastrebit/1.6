@@ -4,39 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9481fa00-34a3-4f40-a043-06111fa20026" name="Changes" comment="add 1.5">
-      <change afterPath="$PROJECT_DIR$/src/js/show-more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_prices.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_prise-swiper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blocks/_types-swiper.scss" afterDir="false" />
+    <list default="true" id="9481fa00-34a3-4f40-a043-06111fa20026" name="Changes" comment="1.6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pinkButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pinkButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/read-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/readMore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/swiper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_about-csp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_about-csp.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_brands-pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_pagination.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/_brands-swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_brands-swiper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_container.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_dropdown-icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_dropdown-icon.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_feedback.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_feedback.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_languages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_languages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_more-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_more-button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_overlay.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_overlay.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_services-nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_services-nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_services.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_swiper-repair.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_repair-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_prise-swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_prise-swiper.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +109,7 @@
       <workItem from="1738944871260" duration="15798000" />
       <workItem from="1739003131030" duration="15781000" />
       <workItem from="1739090526916" duration="9882000" />
+      <workItem from="1739128929167" duration="1063000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -187,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738620801449</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1.6">
+      <option name="closed" value="true" />
+      <created>1739129184686</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739129184686</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +179,7 @@
     <MESSAGE value="new .header text" />
     <MESSAGE value="aside,article" />
     <MESSAGE value="add 1.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 1.5" />
+    <MESSAGE value="1.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.6" />
   </component>
 </project>

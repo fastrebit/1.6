@@ -12,9 +12,9 @@
     }
   }
   &__slide {
-    border: 1px solid rgb(234, 234, 234);
+    border: 1px solid $grey;
     border-radius: 6px;
-    background: rgb(255, 255, 255);
+    background: $white;
     width: 260px;
     @include tablet-above {
       width: auto;
