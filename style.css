@@ -381,7 +381,7 @@ button {
     justify-content: space-between;
     align-items: center; }
   .brands-swiper::after {
-    background: linear-gradient(270deg, #f8f8f8 16.836%, transparent);
+    background: linear-gradient(270deg, #fff 16.836%, transparent);
     content: "";
     height: 81px;
     position: absolute;
@@ -661,7 +661,8 @@ button {
     scrollbar-width: thin; }
   @media (max-width: 1366px) {
     .menu {
-      display: none; } }
+      transform: translate3d(-104%, 0, 0);
+      transition: transform .3s ease-out; } }
   .menu--active {
     position: fixed;
     top: 0;
@@ -669,9 +670,9 @@ button {
     height: 100%;
     z-index: 1;
     background-color: rgba(255, 255, 255, 0.8);
-    transition: opacity 1s ease, visibility 1s ease;
     opacity: 1;
-    visibility: visible;
+    transform: translate3d(0, 0, 0);
+    transition: transform .3s ease-out;
     display: flex;
     justify-content: start;
     gap: 33px; }
@@ -1028,9 +1029,9 @@ button {
       flex-direction: column;
       background-color: #fff; } }
   .prise-swiper__slide {
-    border: 1px solid #eaeaea;
+    border: 1px solid #F8F8F8;
     border-radius: 6px;
-    background: white;
+    background: #fff;
     width: 260px; }
     @media (min-width: 769px) {
       .prise-swiper__slide {
